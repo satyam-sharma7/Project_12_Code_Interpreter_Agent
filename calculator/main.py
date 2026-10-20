@@ -1,4 +1,4 @@
-num1 = 5
-num2 = 10
-result = num1 * num2
-print(f"The product of {num1} and {num2} is {result}")
+numbers = list(range(1, 101))
+for num in numbers:
+    if num % 2 != 0:
+        print(num)
